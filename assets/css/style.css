@@ -1,0 +1,222 @@
+/* Shared CSS ***********************************/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url("../images/gravel.png");
+}
+
+a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+/* Header *****/
+
+.nav-item a:link {
+    text-decoration: none;
+    color: #777777;
+}
+
+.nav-item a:visited {
+    color: #777777;
+}
+
+.nav-item a:hover {
+    font-size: 20px;
+    color: #4aaaa5;
+}
+
+header {
+    margin-top: 0;
+    background-color: #ffffff;
+    height: 60px;
+    border-bottom: 2px solid #cccccc;
+}
+
+.header-content {
+    margin: auto;
+    width: 960px;
+}
+
+.header-name {
+    background-color: #4aaaa5;
+    height: 58px;
+    float: left;
+}
+
+.header-name h1 {
+    margin-top: 0px;
+    padding: 15px 25px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff; 
+}
+
+.nav-items {
+    float: right;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-left: 20px;
+    color: #777777;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/* Main *****/
+
+.main-section {
+    width: 960px;
+    background-color:#ffffff;
+    margin:  30px auto;
+    padding: 20px 40px;
+    margin-bottom: 180px;
+    border: 1px solid #dddddd;
+}
+
+h2 {
+    margin-top: 0;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+hr {
+    margin-bottom: 25px;
+}
+
+/* Footer *****/
+
+footer {
+    position: fixed;
+    height: 60px;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+footer span {
+    display: block;
+    text-align: center;
+    margin-top: 34px;
+    color: #dddddd;
+    font-size: 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;   
+}
+
+/* About Me ************************************************/
+
+#profile-image {
+    float: left;
+    margin-right: 20px;
+}
+
+p {
+    margin-top: 0px;
+    line-height: 30px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* Contact Page ******************************************/
+
+.input {
+    width: 880px;
+    height: 30px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    color: #777777;
+}
+
+#message-input {
+    width: 880px;
+    height: 200px;
+    margin-top: 5px;
+    color: #777777;
+}
+
+label {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+input:focus,
+#message-input:focus,
+button:focus {
+    outline: none !important;
+    border:2px solid #4aaaa5;
+    box-shadow: 0 0 5px #4aaaa5;
+}
+
+/* Portfolio Page *************************************************/
+
+.content-wrapper {
+    display: inline-block;
+    width: 300px;
+    height: 228px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.content-wrapper h3 {
+    text-align: center;
+    display: block;
+    padding-top: 13px;
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.pic {
+    width: 100%;
+}
+
+.text-wrapper {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    margin-top: -30%;
+    background-color: #4aaaa5;
+}
+
+#steve {
+    margin-bottom: 50px;
+}
+
+/**Responsiveness*************/
+
+@media screen and (max-width: 980px) {
+
+    .main-section {
+        width: 700px;
+        margin-left: 80px;
+    }
+
+    .header-content {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+
+}
