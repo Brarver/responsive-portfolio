@@ -204,19 +204,69 @@ button:focus {
 @media screen and (max-width: 980px) {
 
     .main-section {
-        width: 700px;
-        margin-left: 80px;
+        width: 650px;
+        margin-left: 60px;
     }
 
     .header-content {
-        margin-left: 80px;
+        margin-left: 60px;
+        width: 880px;
+    }
+
+    #profile-image {
+        width: 250px;    
     }
 }
 
 @media screen and (max-width: 768px) {
 
+    .main-section {
+        width: 600px;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .header-content {
+        margin: auto;
+        width: 600px;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
+
+    header {
+        height: 100px;
+        
+    }
+
+    .header-content {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    .header-name {
+        width: 100%;
+        float: none;
+    }
+
+    ul {
+        padding-left: 0px;
+        margin-top: 10px;
+        
+    }
+
+    .nav-items {
+        float: none;
+        padding-left: 0px;
+    }
+
+    .nav-item {
+        margin-left: 0px;
+    }
+
+    
 
 }
