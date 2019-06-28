@@ -224,6 +224,7 @@ button:focus {
         width: 600px;
         margin: auto;
         margin-top: 30px;
+        margin-bottom: 150px;
     }
 
     .header-content {
@@ -264,7 +265,15 @@ button:focus {
     }
 
     .nav-item {
+        margin-left: 10px;
+    }
+
+    .single {
         margin-left: 0px;
+    }
+
+    .main-section {
+        margin-bottom: 150px;
     }
 
     
