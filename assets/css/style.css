@@ -69,6 +69,10 @@ header {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+span {
+    display: none;
+}
+
 /* Main *****/
 
 .main-section {
@@ -171,8 +175,9 @@ button:focus {
     display: inline-block;
     width: 300px;
     height: 228px;
-    margin-top: 20px;
-    margin-right: 20px;
+    margin-top: 15px;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .content-wrapper h3 {
@@ -195,13 +200,11 @@ button:focus {
     background-color: #4aaaa5;
 }
 
-#steve {
-    margin-bottom: 50px;
-}
-
 /**Responsiveness*************/
 
 @media screen and (max-width: 980px) {
+
+    /**Main and Header**/
 
     .main-section {
         width: 650px;
@@ -213,31 +216,61 @@ button:focus {
         width: 880px;
     }
 
+    /**Profile Pic**/
+
     #profile-image {
         width: 250px;    
+    }
+
+    /**Portfolio Page**/
+
+    .content-wrapper {
+        width: 250px;
+        height: 178px;
+    }
+
+    .text-wrapper {
+        margin-top: -35%;
     }
 }
 
 @media screen and (max-width: 768px) {
 
-    .main-section {
-        width: 600px;
-        margin: auto;
-        margin-top: 30px;
-    }
+    /**Main and Header**/
 
     .header-content {
         margin: auto;
         width: 600px;
     }
 
+    .main-section {
+        width: 600px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 150px;
+    }
+
+    /**Portfolio Page**/
+
+    .content-wrapper {
+        width: 255px;
+        height: 158px;
+        margin-right: 15px;
+    }
+
+    .main-portfolio {
+        width: 600px;
+        padding-right: 0px;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
 
+    /**Main and Header**/
+
     header {
         height: 100px;
-        
     }
 
     .header-content {
@@ -265,6 +298,52 @@ button:focus {
 
     .nav-item {
         margin-left: 0px;
+        padding:  0px 10px;
+    }
+
+    span {
+        display: inline-block;
+        color: #e4dbdb;
+    }
+
+    .main-section {
+        width: 600px;
+        margin-bottom: 150px;
+    }
+
+    /**About Me**/
+
+    #profile-image {
+        float: none;
+        width: 518px;
+        margin: auto;
+        display: block;
+        margin-bottom: 30px;
+        
+
+    }
+
+    /**Portfolio Page**/
+
+    .main-portfolio {
+        width: 450px;
+    }
+
+    .content-wrapper {
+        display: block;
+        width: 368px;
+        height: 228px;
+        margin: auto;
+        margin-bottom: 90px;
+    }
+
+    .text-wrapper {
+        height: 70px;
+        margin-top: -30%;
+    }
+
+    .content-wrapper h3 {
+        padding-top: 23px;
     }
 
     
