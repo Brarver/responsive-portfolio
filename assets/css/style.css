@@ -255,6 +255,16 @@ button:focus {
     .text-wrapper {
         margin-top: -35%;
     }
+
+    /**Contact Page**/
+
+    .input {
+        width: 570px;
+    }
+    
+    #message-input {
+        width: 570px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -294,6 +304,16 @@ button:focus {
 
     .portfolio-hr {
         width: 540px;
+    }
+
+    /**Contact Page**/
+
+    .input {
+        width: 520px;
+    }
+
+    #message-input {
+        width: 520px;
     }
 
 }
