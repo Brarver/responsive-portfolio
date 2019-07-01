@@ -8,6 +8,8 @@ body {
     background-image: url("../images/gravel.png");
 }
 
+/* Header *****/
+
 a:link {
     text-decoration: none;
     color: #ffffff;
@@ -16,8 +18,6 @@ a:link {
 a:visited {
     color: #ffffff;
 }
-
-/* Header *****/
 
 .nav-item a:link {
     text-decoration: none;
@@ -43,6 +43,7 @@ header {
 .header-content {
     margin: auto;
     width: 960px;
+    background-color: #ffffff;
 }
 
 .header-name {
@@ -211,9 +212,15 @@ button:focus {
         margin-left: 60px;
     }
 
+    header {
+        width: 975px;
+    }
+
     .header-content {
         margin-left: 60px;
+        /* margin-right: 0px; */
         width: 880px;
+        
     }
 
     span {
@@ -270,6 +277,10 @@ button:focus {
 @media screen and (max-width: 768px) {
 
     /**Main and Header**/
+
+    header {
+        width: 100%;
+    }
 
     .header-content {
         margin: auto;
